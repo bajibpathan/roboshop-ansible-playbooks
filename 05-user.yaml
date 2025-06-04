@@ -23,7 +23,7 @@
   
   - name: Create /app directory
     ansible.builtin.file:
-      name: /app
+      path: /app
       state: directory
 
   - name: Download user code
